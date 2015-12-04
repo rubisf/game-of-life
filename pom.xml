@@ -186,6 +186,7 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+	<exclusions> <exclusion> <artifactId>tools</artifactId> <groupId>com.sun</groupId> </exclusion> </exclusions>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
